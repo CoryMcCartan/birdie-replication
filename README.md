@@ -6,7 +6,7 @@
 
 To run the replication, run the R files in this folder in numerical order:
 ```r
-lapply(sort(Sys.glob("replication/*.R")), source)
+lapply(sort(Sys.glob("*.R")), source)
 ```
 
 ### Data
